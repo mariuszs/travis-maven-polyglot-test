@@ -5,6 +5,6 @@ language: java
 jdk:
   - oraclejdk8
 
-before_install: mvn --version
+#before_install: mvn --version
 
-script: mvn package
+script: mvn --version
